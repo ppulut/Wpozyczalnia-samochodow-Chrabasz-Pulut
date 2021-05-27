@@ -23,7 +23,7 @@ final class SplashScreen extends JFrame
         setIconImage(icon.getImage());
         JLabel background = new JLabel();
         //Logowanie do servera
-        clientsocket = new ClientWorker("localhost", 2137);
+        clientsocket = new ClientWorker("localhost", 1234);
         if(!clientsocket.connect()){
         System.out.println("Blad z logowaniem do servera");
         dispose();
