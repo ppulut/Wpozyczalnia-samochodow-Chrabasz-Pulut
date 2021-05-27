@@ -104,7 +104,7 @@ public class Server extends Thread {
 
         serverWindow.setVisible(true);
         //Port na którym działa serwer
-        int port = 2137;
+        int port = 1234;
         //
 
         //Tworzenie servera
